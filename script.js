@@ -1,6 +1,6 @@
-var menuIcon = document.querySelector(".menu");
-var sidebar = document.querySelector(".sidebar");
-var container = document.querySelector(".container");
+let menuIcon = document.querySelector(".menu");
+let sidebar = document.querySelector(".sidebar");
+let container = document.querySelector(".container");
 
 menuIcon.onclick = function(){
     sidebar.classList.toggle("small-sidebar");
